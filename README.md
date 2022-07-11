@@ -1,8 +1,7 @@
 # Cyber Challenge Hour
 A collection of challenges to help any aspiring cyber analysts learn. 
 
-##**Note:
-Most applications displayed here are insecure by design for training purposes, **DO NOT** use code here in production applications
+**Note:** Most applications displayed here are insecure by design for training purposes, **DO NOT** use code here in production applications
 
 
 
