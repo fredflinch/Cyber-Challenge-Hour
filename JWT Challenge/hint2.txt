@@ -1,0 +1,7 @@
+Hint 2
+
+If only RFCs were secure by design... What a world we'd live in. 
+
+https://datatracker.ietf.org/doc/html/rfc7519  
+
+Still stuck? for the last clue, the source is provided. Only go to /hint/3 if you are truely stuck

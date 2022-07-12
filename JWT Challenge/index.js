@@ -101,7 +101,7 @@ app.post('/auth',(req,res) => {
 app.get(main_page, (req, res) => {
   if (req.cookies.token !== undefined){
     if(validateJWT(req.cookies.token)){
-      res.render('flag', {title: "flag", userName: jwt.decode(req.cookies.token, {complete: true}).payload.user,  flag: challenge_flag})  
+      res.status(200).render('flag', {title: "flag", userName: jwt.decode(req.cookies.token, {complete: true}).payload.user,  flag: challenge_flag})  
     } else {
       res.sendStatus(403);
     }
@@ -109,6 +109,18 @@ app.get(main_page, (req, res) => {
     res.sendStatus(403)
   } 
 });
+
+
+app.get('/hint/1', (req, res) => {
+  res.sendFile(path.join(__dirname, 'hint1.txt'))
+})
+app.get('/hint/2', (req, res) => {
+  res.sendFile(path.join(__dirname, 'hint2.txt'))
+})
+app.get('/hint/3', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.js'))
+})
+
 
 /**
  * Server Activation
