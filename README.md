@@ -24,7 +24,9 @@ Run the application with `npm run dev`, by default the app will listen on port 8
 
 ### Recomended Tooling
 -- This is solveable with just a web browser
+
 -- Burpsuite may be helpful 
+
 -- Any common scripting or programming language can solve this challenge 
 
 ## Simple Encryption
