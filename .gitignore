@@ -1,0 +1,14 @@
+node_modules/
+Simple OSINT Challenge/OSINT_Challege_Details.txt
+RAND-someware/payloads/*
+RAND-someware/RAND-Someware/RAND-Someware/x64/
+RAND-someware/RAND-Someware/x64/
+RAND-someware/Website/node_modules/
+RAND-someware/RAND-Someware/.vs/
+RAND-someware/SetupScripts/*.zip
+RAND-someware/SetupScripts/toPush/
+RAND-someware/artifacts/
+RAND-someware/attacker/
+.*
+!/.gitignore
+!/RAND-someware/artifacts/ChallengeLogs.zip

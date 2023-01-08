@@ -1,0 +1,7 @@
+Hint 1
+
+Hmm GDPR compliance anint goint to help here, I wonder what it could be... 
+
+https://jwt.io/
+
+If you're still stuck try /hint/2
