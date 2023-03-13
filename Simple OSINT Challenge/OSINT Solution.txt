@@ -1,6 +1,0 @@
-Given the twitter account, you can find the post to view a flikr account
-From the flikr - download the image and view the EXIF data to retreve the flag 
-
-
-Twitter - @MaryGri45579505
-Flikr   - https://www.flickr.com/photos/196175659@N07/

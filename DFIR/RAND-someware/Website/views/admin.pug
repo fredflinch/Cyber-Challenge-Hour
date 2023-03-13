@@ -1,0 +1,24 @@
+extends layout
+block layout-content
+    div.admin_panel
+        h1 Admin Panel
+        br
+        br
+        h2 Current Images
+        table.status_table.table
+                thead.thead-dark
+                    tr
+                        th(style="text-align:center") File Name 
+                        th(style="text-align:center") Download
+                        th 
+                each i in items
+                    tr
+                        th(style="text-align:center")=i 
+                        th(style="text-align:center")
+                                a(href='/get_img?file=./img/'+i) download
+        br
+        br
+        br
+        a(href='/upload') UPLOAD NEW IMAGES
+            
+

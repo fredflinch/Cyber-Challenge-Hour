@@ -1,0 +1,5 @@
+1. Compromise Web app via upload vuln
+2. Use Shell access to upload beacon
+3. Use beacon to collect RAND-someware and install autoruns persistance
+4. Run RAND-someware 
+5. Clean Up

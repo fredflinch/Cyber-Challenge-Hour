@@ -9,6 +9,9 @@ RAND-someware/SetupScripts/*.zip
 RAND-someware/SetupScripts/toPush/
 RAND-someware/artifacts/
 RAND-someware/attacker/
+Crypt-Encoding/Chrome-DPAPI/
+DFIR/RAND-someware/artifacts/Run1/logs/triage/C/
+DFIR/RAND-someware/artifacts/Run2/logs/triage/C/
 .*
 !/.gitignore
 !/RAND-someware/artifacts/ChallengeLogs.zip

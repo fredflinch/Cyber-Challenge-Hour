@@ -1,0 +1,5 @@
+::1 - - [29/Dec/2022:12:25:12 +0000] "GET /admin HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+::1 - - [29/Dec/2022:12:25:12 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+::1 - - [29/Dec/2022:12:25:15 +0000] "POST /auth?a=YWRtaW46YWRtaW4= HTTP/1.1" 302 56 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+::1 - - [29/Dec/2022:12:25:15 +0000] "GET /admin HTTP/1.1" 200 1385 "http://localhost:8000/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+::1 - - [29/Dec/2022:12:25:16 +0000] "GET /upload HTTP/1.1" 304 - "http://localhost:8000/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"

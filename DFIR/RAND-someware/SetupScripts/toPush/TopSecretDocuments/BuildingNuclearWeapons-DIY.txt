@@ -1,0 +1,3 @@
+Congrats on Finishing the first ever cyber challenge month! Hopefully it's been a blast
+
+Here's the final flag: CCH4{wh3r3's_my_r4nds0m3}

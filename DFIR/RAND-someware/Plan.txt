@@ -1,0 +1,24 @@
+RAND-Someware Scenario 
+
+4 Flags - 4 Weeks - Back2Back2Back2Back
+
+Flag 1: Hidden as the password to login to the site
+Flag 2: Custom node webshell will allow collection of files and deployment of the second stage
+Flag 3: Install WMI persistance with flag embeded 
+Flag 4: RAND-someware deployed - Decrypt the file to recover the flag. 
+
+
+--------------------------
+
+Required Development
+
+- Node web app: 		'Photo Gallery' app allows for file download upload by unauthed users. Photo upload only allowed to admin users. Auth handled via http parameters e.g. ?login=<b64 encoded representation of user:pass>
+- RAND-someware: 	Executable to handle a random file encryption, utilise UPX and VS-Obsfucation
+- Bruteforcer: 		Python bruteforcer 
+
+--------------------------
+
+Progress:
+
+RAND-someware: 	Mostly done -- just need to add obsfucation components
+Node Web App:	Done!

